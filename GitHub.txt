@@ -1,0 +1,54 @@
+Microsoft Windows [Version 10.0.22000.1455]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git branch
+* main
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git checkout -b e2e
+Switched to a new branch 'e2e'
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git branch
+* e2e
+  main
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git gui
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git checkout e2e
+error: The following untracked working tree files would be overwritten by checkout:
+        .project
+Please move or remove them before you switch branches.
+Aborting
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git gui
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git stash
+No local changes to save
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git checkout e2e
+error: The following untracked working tree files would be overwritten by checkout:
+        .project
+Please move or remove them before you switch branches.
+Aborting
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git gui
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git checkout e2e
+Switched to branch 'e2e'
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git gui
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git brnach
+git: 'brnach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>git branch
+* e2e
+  main
+
+C:\Users\Vamsi\OneDrive\Documents\Automation Projects\SapnaOnlineProject\SapnaOnlineNew>
